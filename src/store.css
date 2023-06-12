@@ -1,0 +1,20 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  margin: 0;
+}
