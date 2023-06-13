@@ -22,7 +22,7 @@ section.secondary {
 
 .img-responsive {
   max-width: 100%;
-  max-height: 750px;
+  max-height: 800px;
   display: block;
 }
 
@@ -32,7 +32,7 @@ section.secondary {
 }
 
 .grid-2-col {
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
   padding: 50px 50px;
   margin-top: 50px;
   margin-bottom: 30px;
@@ -190,5 +190,9 @@ footer a {
 
   section {
     padding: 20px;
+  }
+
+  footer {
+    text-align: center;
   }
 }
