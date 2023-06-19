@@ -23,7 +23,9 @@ section.secondary {
 .img-responsive {
   max-width: 100%;
   max-height: 800px;
-  display: block;
+  display: flex;
+  padding-right: auto;
+  padding-left: auto;
 }
 
 .grid {
@@ -104,6 +106,10 @@ header h3 {
   margin: 0;
 }
 
+header h4 {
+  font-weight: bold;
+}
+
 header a {
   font-weight: 700;
   font-size: 14px;
@@ -172,6 +178,10 @@ footer a {
     font-size: 12px;
   }
 
+  section {
+    padding: 20px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
@@ -188,11 +198,7 @@ footer a {
     padding-bottom: 40px;
   }
 
-  section {
-    padding: 20px;
-  }
-
-  footer {
-    text-align: center;
+  .grid-footer {
+    display: flex;
   }
 }
