@@ -23,9 +23,8 @@ section.secondary {
 .img-responsive {
   max-width: 100%;
   max-height: 800px;
-  display: flex;
-  padding-right: auto;
-  padding-left: auto;
+  display: block;
+  padding-right: 13px;
 }
 
 .grid {
